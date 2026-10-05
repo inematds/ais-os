@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 
-<html class="dark" lang="pt-BR">
+<html class="dark" lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Trilha 2 — A Arquitetura (4 Cs) | AIS-OS</title>
+<title>Track 2 — The Architecture (4 Cs) | AIS-OS</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
     tailwind.config = { darkMode: 'class', theme: { extend: { colors: {
@@ -89,7 +89,7 @@
     }
   </style>
 <link href="https://inematds.github.io/ais-os/curso/trilha2/" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/ais-os/en/curso/trilha2/" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/ais-os/es/curso/trilha2/" hreflang="es" rel="alternate"/></head>
-<body class="bg-dark-900 text-neutral-100 min-h-screen"><div class="inema-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="./" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">PT</a><a href="../../en/curso/trilha2/" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="../../es/curso/trilha2/" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div>
+<body class="bg-dark-900 text-neutral-100 min-h-screen"><div class="inema-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="../../../curso/trilha2/" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="./" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">EN</a><a href="../../../es/curso/trilha2/" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div>
 <!-- NAV B2 -->
 <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -102,9 +102,9 @@
 <a class="text-sky-400 hover:text-sky-300 text-sm font-medium" href="https://inema.club" target="_blank">INEMA.CLUB</a>
 </div>
 <div class="flex items-center space-x-1 sm:space-x-2">
-<a class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-emerald-400 hover:bg-emerald-500/10 transition-colors" href="../trilha1/index.html"><span class="sm:hidden">T1</span><span class="hidden sm:inline">Cérebro (3 Ms)</span></a>
-<a class="px-3 py-1.5 rounded-lg text-sm font-semibold text-blue-400 bg-blue-500/10" href="index.html"><span class="sm:hidden">T2</span><span class="hidden sm:inline">Arquitetura (4 Cs)</span></a>
-<a class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-purple-400 hover:bg-purple-500/10 transition-colors" href="../trilha3/index.html"><span class="sm:hidden">T3</span><span class="hidden sm:inline">Na Prática</span></a>
+<a class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-emerald-400 hover:bg-emerald-500/10 transition-colors" href="../trilha1/index.html"><span class="sm:hidden">T1</span><span class="hidden sm:inline">Brain (3 Ms)</span></a>
+<a class="px-3 py-1.5 rounded-lg text-sm font-semibold text-blue-400 bg-blue-500/10" href="index.html"><span class="sm:hidden">T2</span><span class="hidden sm:inline">Architecture (4 Cs)</span></a>
+<a class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-purple-400 hover:bg-purple-500/10 transition-colors" href="../trilha3/index.html"><span class="sm:hidden">T3</span><span class="hidden sm:inline">In Practice</span></a>
 <button class="p-2 rounded-lg bg-dark-700 hover:bg-dark-600 transition-colors ml-2" id="theme-toggle">
 <svg class="hidden w-5 h-5 text-neutral-300" fill="currentColor" id="theme-toggle-dark-icon" viewbox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
 <svg class="hidden w-5 h-5 text-neutral-300" fill="currentColor" id="theme-toggle-light-icon" viewbox="0 0 20 20"><path clip-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd"></path></svg>
@@ -117,39 +117,39 @@
 <!-- HEADER DE TRILHA -->
 <div class="bg-gradient-to-br from-blue-900/30 via-dark-800 to-dark-900 rounded-2xl border border-blue-500/30 p-8 mb-10">
 <div class="mb-4">
-<span class="inline-block px-3 py-1 bg-blue-500/20 text-blue-400 text-sm font-bold rounded-full border border-blue-500/30">TRILHA 2</span>
+<span class="inline-block px-3 py-1 bg-blue-500/20 text-blue-400 text-sm font-bold rounded-full border border-blue-500/30">TRACK 2</span>
 </div>
-<h1 class="text-3xl sm:text-4xl font-extrabold mb-4">🏛️ A Arquitetura (4 Cs)</h1>
+<h1 class="text-3xl sm:text-4xl font-extrabold mb-4">🏛️ The Architecture (4 Cs)</h1>
 <p class="text-neutral-300 text-lg mb-3 max-w-3xl">
-        Os quatro pilares do seu AI Operating System: <strong class="text-blue-400">Context</strong> → <strong class="text-blue-400">Connections</strong> + <strong class="text-blue-400">Capabilities</strong> → <strong class="text-blue-400">Cadence</strong>.
+        The four pillars of your AI Operating System: <strong class="text-blue-400">Context</strong> → <strong class="text-blue-400">Connections</strong> + <strong class="text-blue-400">Capabilities</strong> → <strong class="text-blue-400">Cadence</strong>.
       </p>
 <p class="text-neutral-400 text-sm mb-6 max-w-2xl">
-        Grafo de dependência: <span class="text-blue-400 font-semibold">Context é não-pulável</span> (toda sessão começa aqui). Connections e Capabilities podem ser construídos em paralelo. <span class="text-blue-400 font-semibold">Cadence vem por último</span> — não automatize workflows que ainda não funcionam manualmente.
+        Dependency graph: <span class="text-blue-400 font-semibold">Context is non-skippable</span> (every session starts here). Connections and Capabilities can be built in parallel. <span class="text-blue-400 font-semibold">Cadence comes last</span> — don’t automate workflows that don’t work manually yet.
         <br/><span class="text-neutral-500 text-xs mt-1 block">The Four Cs of an AIOS™ © Nate Herk</span>
 </p>
 <!-- Stats 4 colunas -->
 <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
 <div class="bg-dark-800/60 rounded-xl border border-blue-500/20 p-4 text-center">
 <div class="text-2xl font-extrabold text-blue-400">4</div>
-<div class="text-xs text-neutral-500 mt-1">Módulos</div>
+<div class="text-xs text-neutral-500 mt-1">Modules</div>
 </div>
 <div class="bg-dark-800/60 rounded-xl border border-blue-500/20 p-4 text-center">
 <div class="text-2xl font-extrabold text-blue-400">26</div>
-<div class="text-xs text-neutral-500 mt-1">Tópicos</div>
+<div class="text-xs text-neutral-500 mt-1">Topics</div>
 </div>
 <div class="bg-dark-800/60 rounded-xl border border-blue-500/20 p-4 text-center">
 <div class="text-2xl font-extrabold text-blue-400">~2.5h</div>
-<div class="text-xs text-neutral-500 mt-1">Duração</div>
+<div class="text-xs text-neutral-500 mt-1">Duration</div>
 </div>
 <div class="bg-dark-800/60 rounded-xl border border-blue-500/20 p-4 text-center">
-<div class="text-2xl font-extrabold text-blue-400">Inic→Int</div>
-<div class="text-xs text-neutral-500 mt-1">Nível</div>
+<div class="text-2xl font-extrabold text-blue-400">Beg.→Int.</div>
+<div class="text-xs text-neutral-500 mt-1">Level</div>
 </div>
 </div>
 </div>
 <!-- HERO SVG — Os 4 Cs como grafo de dependência -->
 <div class="rounded-2xl border border-blue-500/30 bg-dark-900/40 p-6 mb-10">
-<svg aria-label="Grafo de dependência dos 4 Cs: Context (base não-pulável) → Connections e Capabilities (paralelo) → Cadence (topo)" class="w-full h-auto" role="img" viewbox="0 0 760 320">
+<svg aria-label="Dependency graph for the 4 Cs: Context (non-skippable foundation) → Connections and Capabilities (parallel) → Cadence (top)" class="w-full h-auto" role="img" viewbox="0 0 760 320">
 <defs>
 <filter height="160%" id="t2-glow-blue" width="160%" x="-30%" y="-30%">
 <fegaussianblur result="blur" stddeviation="1.8"></fegaussianblur>
@@ -176,47 +176,47 @@
 <!-- CADENCE box (topo) -->
 <rect fill="#1e3a5f" filter="url(#t2-glow-blue)" height="60" opacity="0.95" rx="12" stroke="#60a5fa" stroke-width="2" width="180" x="290" y="16"></rect>
 <text fill="#93c5fd" font-family="Inter,sans-serif" font-size="11" font-weight="600" text-anchor="middle" x="380" y="41">CADENCE</text>
-<text fill="#60a5fa" font-family="Inter,sans-serif" font-size="9" opacity="0.8" text-anchor="middle" x="380" y="57">⏰ Roda sem ser pedido</text>
+<text fill="#60a5fa" font-family="Inter,sans-serif" font-size="9" opacity="0.8" text-anchor="middle" x="380" y="57">⏰ Runs without being asked</text>
 <!-- Badge ÚLTIMO -->
 <rect fill="#38bdf8" height="14" opacity="0.15" rx="7" width="88" x="336" y="68"></rect>
-<text fill="#38bdf8" font-family="Inter,sans-serif" font-size="7.5" font-weight="600" text-anchor="middle" x="380" y="78">ÚLTIMO</text>
+<text fill="#38bdf8" font-family="Inter,sans-serif" font-size="7.5" font-weight="600" text-anchor="middle" x="380" y="78">LAST</text>
 <!-- CONNECTIONS box (esq) -->
 <rect fill="#1e3a5f" filter="url(#t2-glow-cyan)" height="60" opacity="0.95" rx="12" stroke="#38bdf8" stroke-width="2" width="180" x="110" y="104"></rect>
 <text fill="#7dd3fc" font-family="Inter,sans-serif" font-size="11" font-weight="600" text-anchor="middle" x="200" y="130">CONNECTIONS</text>
-<text fill="#38bdf8" font-family="Inter,sans-serif" font-size="9" opacity="0.8" text-anchor="middle" x="200" y="147">🔌 Alcança suas coisas</text>
+<text fill="#38bdf8" font-family="Inter,sans-serif" font-size="9" opacity="0.8" text-anchor="middle" x="200" y="147">🔌 Connects to Your Tools</text>
 <!-- Badge paralelo -->
 <rect fill="#38bdf8" height="14" opacity="0.15" rx="7" width="88" x="156" y="156"></rect>
-<text fill="#38bdf8" font-family="Inter,sans-serif" font-size="7.5" font-weight="600" text-anchor="middle" x="200" y="166">PARALELO</text>
+<text fill="#38bdf8" font-family="Inter,sans-serif" font-size="7.5" font-weight="600" text-anchor="middle" x="200" y="166">PARALLEL</text>
 <!-- CAPABILITIES box (dir) -->
 <rect fill="#1e3a5f" filter="url(#t2-glow-cyan)" height="60" opacity="0.95" rx="12" stroke="#38bdf8" stroke-width="2" width="180" x="470" y="104"></rect>
 <text fill="#7dd3fc" font-family="Inter,sans-serif" font-size="11" font-weight="600" text-anchor="middle" x="560" y="130">CAPABILITIES</text>
-<text fill="#38bdf8" font-family="Inter,sans-serif" font-size="9" opacity="0.8" text-anchor="middle" x="560" y="147">🧩 Sabe fazer o trabalho</text>
+<text fill="#38bdf8" font-family="Inter,sans-serif" font-size="9" opacity="0.8" text-anchor="middle" x="560" y="147">🧩 Knows how to do the work</text>
 <!-- Badge paralelo -->
 <rect fill="#38bdf8" height="14" opacity="0.15" rx="7" width="88" x="516" y="156"></rect>
-<text fill="#38bdf8" font-family="Inter,sans-serif" font-size="7.5" font-weight="600" text-anchor="middle" x="560" y="166">PARALELO</text>
+<text fill="#38bdf8" font-family="Inter,sans-serif" font-size="7.5" font-weight="600" text-anchor="middle" x="560" y="166">PARALLEL</text>
 <!-- CONTEXT box (base) — destaque especial -->
 <rect fill="#1e3058" filter="url(#t2-glow-blue)" height="72" opacity="1" rx="14" stroke="#60a5fa" stroke-width="2.5" width="232" x="264" y="200"></rect>
 <text fill="#93c5fd" font-family="Inter,sans-serif" font-size="13" font-weight="700" text-anchor="middle" x="380" y="228">CONTEXT</text>
-<text fill="#60a5fa" font-family="Inter,sans-serif" font-size="9.5" opacity="0.85" text-anchor="middle" x="380" y="247">🗂️ Conhece seu negócio</text>
+<text fill="#60a5fa" font-family="Inter,sans-serif" font-size="9.5" opacity="0.85" text-anchor="middle" x="380" y="247">🗂️ Knows Your Business</text>
 <!-- Badge NÃO-PULÁVEL -->
 <rect fill="#2563eb" height="16" opacity="0.25" rx="8" width="152" x="304" y="258"></rect>
-<text fill="#93c5fd" font-family="Inter,sans-serif" font-size="8" font-weight="700" text-anchor="middle" x="380" y="270">FUNDAÇÃO NÃO-PULÁVEL</text>
+<text fill="#93c5fd" font-family="Inter,sans-serif" font-size="8" font-weight="700" text-anchor="middle" x="380" y="270">NON-SKIPPABLE FOUNDATION</text>
 <!-- Labels de fluxo -->
-<text fill="#60a5fa" font-family="Inter,sans-serif" font-size="8" opacity="0.6" transform="rotate(-30 95 190)" x="95" y="190">depois</text>
-<text fill="#60a5fa" font-family="Inter,sans-serif" font-size="8" opacity="0.6" transform="rotate(30 620 190)" x="620" y="190">depois</text>
-<text fill="#38bdf8" font-family="Inter,sans-serif" font-size="8" opacity="0.6" transform="rotate(-20 298 88)" x="298" y="88">depois</text>
-<text fill="#38bdf8" font-family="Inter,sans-serif" font-size="8" opacity="0.6" transform="rotate(20 450 88)" x="450" y="88">depois</text>
+<text fill="#60a5fa" font-family="Inter,sans-serif" font-size="8" opacity="0.6" transform="rotate(-30 95 190)" x="95" y="190">after</text>
+<text fill="#60a5fa" font-family="Inter,sans-serif" font-size="8" opacity="0.6" transform="rotate(30 620 190)" x="620" y="190">after</text>
+<text fill="#38bdf8" font-family="Inter,sans-serif" font-size="8" opacity="0.6" transform="rotate(-20 298 88)" x="298" y="88">after</text>
+<text fill="#38bdf8" font-family="Inter,sans-serif" font-size="8" opacity="0.6" transform="rotate(20 450 88)" x="450" y="88">after</text>
 <!-- Legend bottom -->
 <line stroke="#60a5fa" stroke-width="2" x1="40" x2="70" y1="298" y2="298"></line>
-<text fill="#60a5fa" font-family="Inter,sans-serif" font-size="9" opacity="0.7" x="76" y="302">trilha principal (blue)</text>
+<text fill="#60a5fa" font-family="Inter,sans-serif" font-size="9" opacity="0.7" x="76" y="302">main track (blue)</text>
 <line stroke="#38bdf8" stroke-dasharray="5,3" stroke-width="1.5" x1="200" x2="230" y1="298" y2="298"></line>
-<text fill="#38bdf8" font-family="Inter,sans-serif" font-size="9" opacity="0.7" x="236" y="302">dependência (ciano)</text>
+<text fill="#38bdf8" font-family="Inter,sans-serif" font-size="9" opacity="0.7" x="236" y="302">dependency (cyan)</text>
 <text fill="#60a5fa" font-family="Inter,sans-serif" font-size="8" opacity="0.45" text-anchor="middle" x="380" y="302">The Four Cs of an AIOS™ © Nate Herk</text>
 </svg>
 </div>
 <!-- MAPA DA TRILHA -->
 <section class="mb-12">
-<h2 class="text-2xl font-bold mb-6">Mapa da trilha</h2>
+<h2 class="text-2xl font-bold mb-6">Learning path map</h2>
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
 <a class="group bg-dark-800 rounded-xl border border-dark-600 hover:border-blue-500/30 p-5 transition-all" href="#modulo-2-1">
 <div class="flex items-center justify-between mb-2">
@@ -224,7 +224,7 @@
 <span class="text-xs text-neutral-500">~35 min</span>
 </div>
 <h3 class="font-semibold mb-1 group-hover:text-blue-400 transition-colors">🗂️ Context</h3>
-<p class="text-xs text-neutral-400">Fundação não-pulável</p>
+<p class="text-xs text-neutral-400">Non-skippable foundation</p>
 </a>
 <a class="group bg-dark-800 rounded-xl border border-dark-600 hover:border-blue-500/30 p-5 transition-all" href="#modulo-2-2">
 <div class="flex items-center justify-between mb-2">
@@ -232,7 +232,7 @@
 <span class="text-xs text-neutral-500">~40 min</span>
 </div>
 <h3 class="font-semibold mb-1 group-hover:text-blue-400 transition-colors">🔌 Connections</h3>
-<p class="text-xs text-neutral-400">Dados vivos, sem colar</p>
+<p class="text-xs text-neutral-400">Live data, no pasting</p>
 </a>
 <a class="group bg-dark-800 rounded-xl border border-dark-600 hover:border-blue-500/30 p-5 transition-all" href="#modulo-2-3">
 <div class="flex items-center justify-between mb-2">
@@ -240,7 +240,7 @@
 <span class="text-xs text-neutral-500">~40 min</span>
 </div>
 <h3 class="font-semibold mb-1 group-hover:text-blue-400 transition-colors">🧩 Capabilities</h3>
-<p class="text-xs text-neutral-400">Uma frase, um artefato</p>
+<p class="text-xs text-neutral-400">One sentence, one artifact</p>
 </a>
 <a class="group bg-dark-800 rounded-xl border border-dark-600 hover:border-blue-500/30 p-5 transition-all" href="#modulo-2-4">
 <div class="flex items-center justify-between mb-2">
@@ -248,12 +248,12 @@
 <span class="text-xs text-neutral-500">~35 min</span>
 </div>
 <h3 class="font-semibold mb-1 group-hover:text-blue-400 transition-colors">⏰ Cadence</h3>
-<p class="text-xs text-neutral-400">Laptop fechado, brief chega</p>
+<p class="text-xs text-neutral-400">Laptop closed, brief arrives</p>
 </a>
 </div>
 </section>
 <!-- CONTEÚDO DETALHADO -->
-<h2 class="text-2xl font-bold mb-6">Conteúdo detalhado</h2>
+<h2 class="text-2xl font-bold mb-6">Detailed content</h2>
 <!-- MÓDULO 2.1 — Context -->
 <div class="bg-dark-800 rounded-xl border border-dark-600 mb-6" id="modulo-2-1">
 <div class="p-6 border-b border-dark-600">
@@ -261,8 +261,8 @@
 <span class="text-blue-400 font-bold">2.1</span>
 <span class="text-xs text-neutral-500">~35 min</span>
 </div>
-<h3 class="text-2xl font-bold mb-2">🗂️ Context: Conhece seu negócio</h3>
-<p class="text-neutral-400 text-sm">A fundação não-pulável. Toda sessão Claude começa aqui — sem Context, não há AIOS.</p>
+<h3 class="text-2xl font-bold mb-2">🗂️ Context: Knows Your Business</h3>
+<p class="text-neutral-400 text-sm">The unskippable foundation. Every Claude session starts here — without Context, there’s no AIOS.</p>
 </div>
 <div class="divide-y divide-dark-600">
 <!-- Tópico 1 -->
@@ -271,8 +271,8 @@
 <div class="flex items-center space-x-3">
 <span class="w-6 h-6 rounded-full bg-blue-500/20 text-blue-400 text-xs font-bold flex items-center justify-center flex-shrink-0">1</span>
 <div>
-<span class="font-medium">🧪 O teste do Context</span>
-<p class="text-xs text-neutral-500 mt-0.5">Sessão fresca, sem navegar</p>
+<span class="font-medium">🧪 The Context Test</span>
+<p class="text-xs text-neutral-500 mt-0.5">A fresh session, no browsing</p>
 </div>
 </div>
 <svg class="w-4 h-4 text-neutral-500 flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
@@ -280,16 +280,16 @@
 <div class="topic-explanation px-4 pb-4">
 <div class="pl-9 space-y-3">
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">O que é</p>
-<p class="text-sm text-neutral-300">Uma sessão Claude fresca deve responder "o que esse negócio faz e quem trabalha aqui?" sem navegar em nenhum arquivo. Se não responde com precisão, não há Context configurado.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">What it is</p>
+<p class="text-sm text-neutral-300">A fresh Claude session should be able to answer "what does this business do and who works here?" without browsing any files. If it can't answer accurately, Context isn't configured.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Por que aprender</p>
-<p class="text-sm text-neutral-300">Context é o ponto de partida de todo output. Sem ele, o Claude responde de forma genérica — útil para qualquer empresa, específico para a sua.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Why learn</p>
+<p class="text-sm text-neutral-300">Context is the starting point for every output. Without it, Claude responds generically — useful for any company, specific to yours.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Conceitos-chave</p>
-<p class="text-sm text-neutral-300"><strong>Sessão fresca:</strong> nova janela sem histórico. <strong>Teste de identidade:</strong> nome, papel, dor principal. <strong>Baseline:</strong> o que existe antes de construir.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Key Concepts</p>
+<p class="text-sm text-neutral-300"><strong>A fresh session:</strong> new window with no history. <strong>Identity test:</strong> name, role, main pain point. <strong>Baseline:</strong> what exists before building.</p>
 </div>
 </div>
 </div>
@@ -300,8 +300,8 @@
 <div class="flex items-center space-x-3">
 <span class="w-6 h-6 rounded-full bg-blue-500/20 text-blue-400 text-xs font-bold flex items-center justify-center flex-shrink-0">2</span>
 <div>
-<span class="font-medium">📁 A pasta <code class="text-xs bg-dark-600 px-1 rounded">context/</code></span>
-<p class="text-xs text-neutral-500 mt-0.5">Os 3 arquivos que definem quem você é</p>
+<span class="font-medium">📁 The folder <code class="text-xs bg-dark-600 px-1 rounded">context/</code></span>
+<p class="text-xs text-neutral-500 mt-0.5">The 3 files that define who you are</p>
 </div>
 </div>
 <svg class="w-4 h-4 text-neutral-500 flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
@@ -309,16 +309,16 @@
 <div class="topic-explanation px-4 pb-4">
 <div class="pl-9 space-y-3">
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">O que é</p>
-<p class="text-sm text-neutral-300">Três arquivos: <code class="text-xs bg-dark-600 px-1 rounded">about-me.md</code> (identidade, papel, top_pain), <code class="text-xs bg-dark-600 px-1 rounded">about-business.md</code> (oferta, ICP, modelo de receita), <code class="text-xs bg-dark-600 px-1 rounded">priorities.md</code> (prioridades de 90 dias). Fatos interpretados — não dump de documentos.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">What it is</p>
+<p class="text-sm text-neutral-300">Three files: <code class="text-xs bg-dark-600 px-1 rounded">about-me.md</code> (identity, role, top_pain), <code class="text-xs bg-dark-600 px-1 rounded">about-business.md</code> (offer, ICP, revenue model), <code class="text-xs bg-dark-600 px-1 rounded">priorities.md</code> (90-day priorities). Interpreted facts — not a document dump.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Por que aprender</p>
-<p class="text-sm text-neutral-300">Esses três arquivos são carregados em toda sessão. Eles definem o "personagem" do Claude para o seu contexto específico. Sem eles, cada conversa começa do zero.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Why learn</p>
+<p class="text-sm text-neutral-300">These three files are loaded in every session. They define Claude’s "persona" for your specific context. Without them, every conversation starts from scratch.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Conceitos-chave</p>
-<p class="text-sm text-neutral-300"><strong>ICP:</strong> Ideal Customer Profile. <strong>top_pain:</strong> a dor mais frequente do operador. <strong>Fatos interpretados:</strong> o que significa aquele dado para o negócio, não o dado bruto.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Key Concepts</p>
+<p class="text-sm text-neutral-300"><strong>ICP:</strong> Ideal Customer Profile. <strong>top_pain:</strong> the operator’s most frequent pain point. <strong>Interpreted facts:</strong> what that data means for the business, not the raw data.</p>
 </div>
 </div>
 </div>
@@ -329,8 +329,8 @@
 <div class="flex items-center space-x-3">
 <span class="w-6 h-6 rounded-full bg-blue-500/20 text-blue-400 text-xs font-bold flex items-center justify-center flex-shrink-0">3</span>
 <div>
-<span class="font-medium">📋 CLAUDE.md — manual de operação</span>
-<p class="text-xs text-neutral-500 mt-0.5">Arquivo canônico na raiz do projeto</p>
+<span class="font-medium">📋 CLAUDE.md — operating manual</span>
+<p class="text-xs text-neutral-500 mt-0.5">Canonical file at the project root</p>
 </div>
 </div>
 <svg class="w-4 h-4 text-neutral-500 flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
@@ -338,16 +338,16 @@
 <div class="topic-explanation px-4 pb-4">
 <div class="pl-9 space-y-3">
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">O que é</p>
-<p class="text-sm text-neutral-300">Arquivo na raiz do projeto, carregado automaticamente pelo Claude Code. Documenta: quem você é, como pensa (3 Ms), onde as coisas moram no projeto, como trabalhar com você. É preenchido pelo <code class="text-xs bg-dark-600 px-1 rounded">/onboard</code>.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">What it is</p>
+<p class="text-sm text-neutral-300">File in the project root, automatically loaded by Claude Code. Documents who you are, how you think (3 Ms), where things live in the project, and how to work with you. It is filled in by the <code class="text-xs bg-dark-600 px-1 rounded">/onboard</code>.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Por que aprender</p>
-<p class="text-sm text-neutral-300">O CLAUDE.md é o "briefing permanente" do seu assistente. Ele reduz o trabalho de contextualização a zero em cada sessão — o Claude já sabe onde está e o que você espera dele.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Why learn</p>
+<p class="text-sm text-neutral-300">The CLAUDE.md is your assistant’s “permanent briefing.” It reduces context-setting work to zero in every session—Claude already knows where it is and what you expect from it.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Conceitos-chave</p>
-<p class="text-sm text-neutral-300"><strong>Canônico:</strong> uma única fonte de verdade. <strong>Auto-carregamento:</strong> Claude Code lê o CLAUDE.md automaticamente ao abrir o projeto. <strong>/onboard:</strong> skill que preenche o arquivo no Dia 1.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Key Concepts</p>
+<p class="text-sm text-neutral-300"><strong>Canonical:</strong> a single source of truth. <strong>Auto-loading:</strong> Claude Code reads CLAUDE.md automatically when you open the project. <strong>/onboard:</strong> skill that fills in the file on Day 1.</p>
 </div>
 </div>
 </div>
@@ -359,7 +359,7 @@
 <span class="w-6 h-6 rounded-full bg-blue-500/20 text-blue-400 text-xs font-bold flex items-center justify-center flex-shrink-0">4</span>
 <div>
 <span class="font-medium">🎙️ references/voice.md</span>
-<p class="text-xs text-neutral-500 mt-0.5">Voz colada verbatim, nunca digitada</p>
+<p class="text-xs text-neutral-500 mt-0.5">Voice pasted verbatim, never typed</p>
 </div>
 </div>
 <svg class="w-4 h-4 text-neutral-500 flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
@@ -367,16 +367,16 @@
 <div class="topic-explanation px-4 pb-4">
 <div class="pl-9 space-y-3">
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">O que é</p>
-<p class="text-sm text-neutral-300">Amostras da sua voz real coladas literalmente no arquivo — nunca descritas ou digitadas no chat. A instrução ao Claude: "Combine este registro; não finja minha voz em conteúdo externo sem me mostrar antes."</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">What it is</p>
+<p class="text-sm text-neutral-300">Samples of your actual voice pasted verbatim into the file—never described or typed in chat. The instruction to Claude: "Match this style; don’t imitate my voice in external content without showing it to me first."</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Por que aprender</p>
-<p class="text-sm text-neutral-300">Descrever voz no chat é contaminação — o Claude interpreta a descrição, não aprende o padrão real. Amostras verbatim ensinam por exemplo. Outputs de conteúdo ficam indistinguíveis do seu estilo.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Why learn</p>
+<p class="text-sm text-neutral-300">Describing your voice in chat is contamination — Claude interprets the description; it doesn’t learn the real pattern. Verbatim samples teach by example. Content outputs become indistinguishable from your style.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Conceitos-chave</p>
-<p class="text-sm text-neutral-300"><strong>Verbatim:</strong> cópia literal, sem edição. <strong>Contaminação:</strong> o risco de o Claude imitar uma descrição, não a voz real. <strong>Few-shot:</strong> técnica de aprendizado por exemplos concretos.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Key Concepts</p>
+<p class="text-sm text-neutral-300"><strong>Verbatim:</strong> literal copy, with no edits. <strong>Contamination:</strong> the risk of Claude imitating a description, not the real voice. <strong>Few-shot:</strong> a learning technique using concrete examples.</p>
 </div>
 </div>
 </div>
@@ -388,7 +388,7 @@
 <span class="w-6 h-6 rounded-full bg-blue-500/20 text-blue-400 text-xs font-bold flex items-center justify-center flex-shrink-0">5</span>
 <div>
 <span class="font-medium">📝 decisions/log.md</span>
-<p class="text-xs text-neutral-500 mt-0.5">Registro append-only com o PORQUÊ</p>
+<p class="text-xs text-neutral-500 mt-0.5">Append-only log with the WHY</p>
 </div>
 </div>
 <svg class="w-4 h-4 text-neutral-500 flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
@@ -396,16 +396,16 @@
 <div class="topic-explanation px-4 pb-4">
 <div class="pl-9 space-y-3">
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">O que é</p>
-<p class="text-sm text-neutral-300">Registro append-only de decisões estratégicas. Formato padrão: data · Decisão · Por quê · Alternativas consideradas · Owner. O "por quê" é o campo mais importante — sem ele, o registro não tem valor.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">What it is</p>
+<p class="text-sm text-neutral-300">Append-only strategic decision log. Standard format: date · Decision · Why · Alternatives considered · Owner. The "why" is the most important field — without it, the log has no value.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Por que aprender</p>
-<p class="text-sm text-neutral-300">Decisões sem contexto geram re-debate. O log permite ao Claude entender o raciocínio anterior e evitar contradições. Também é audit trail para o /audit.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Why learn</p>
+<p class="text-sm text-neutral-300">Decisions without context lead to re-debating. The log lets Claude understand the earlier reasoning and avoid contradictions. It’s also an audit trail for /audit.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Conceitos-chave</p>
-<p class="text-sm text-neutral-300"><strong>Append-only:</strong> nunca edita entradas antigas, só adiciona. <strong>Audit trail:</strong> rastro verificável de decisões. <strong>Owner:</strong> responsável pela decisão.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Key Concepts</p>
+<p class="text-sm text-neutral-300"><strong>Append-only:</strong> never edits old entries, only adds new ones. <strong>Audit trail:</strong> verifiable record of decisions. <strong>Owner:</strong> responsible for the decision.</p>
 </div>
 </div>
 </div>
@@ -416,8 +416,8 @@
 <div class="flex items-center space-x-3">
 <span class="w-6 h-6 rounded-full bg-blue-500/20 text-blue-400 text-xs font-bold flex items-center justify-center flex-shrink-0">6</span>
 <div>
-<span class="font-medium">🗃️ references/ — conhecimento interpretado</span>
-<p class="text-xs text-neutral-500 mt-0.5">Wiki de fatos, não depósito de docs</p>
+<span class="font-medium">🗃️ references/ — interpreted knowledge</span>
+<p class="text-xs text-neutral-500 mt-0.5">A fact wiki, not a document dump</p>
 </div>
 </div>
 <svg class="w-4 h-4 text-neutral-500 flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
@@ -425,16 +425,16 @@
 <div class="topic-explanation px-4 pb-4">
 <div class="pl-9 space-y-3">
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">O que é</p>
-<p class="text-sm text-neutral-300">Frameworks, SOPs, guias de API, voz. A regra: só fatos interpretados entram aqui — o que aquele dado significa para o negócio, não o dado bruto. O wiki NÃO é depósito de documentos.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">What it is</p>
+<p class="text-sm text-neutral-300">Frameworks, SOPs, API guides, voice. The rule: only interpreted facts belong here — what that data means for the business, not the raw data. The wiki is NOT a document repository.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Por que aprender</p>
-<p class="text-sm text-neutral-300">Conhecimento interpretado acelera sessões futuras. O Claude não precisa deduzir o significado de um dado — ele já está documentado. Referências de API salvas aqui evitam re-pesquisa toda vez.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Why learn</p>
+<p class="text-sm text-neutral-300">Interpreted knowledge speeds up future sessions. Claude doesn’t need to infer what a piece of data means—it’s already documented. API references saved here prevent having to research them again each time.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Conceitos-chave</p>
-<p class="text-sm text-neutral-300"><strong>SOP:</strong> Standard Operating Procedure. <strong>Fato interpretado:</strong> dado + significado. <strong>Researched-once-saved-forever:</strong> princípio de não re-pesquisar o que já foi descoberto.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Key Concepts</p>
+<p class="text-sm text-neutral-300"><strong>SOP:</strong> Standard Operating Procedure. <strong>Interpreted fact:</strong> data + meaning. <strong>Researched-once-saved-forever:</strong> principle of not researching what has already been discovered again.</p>
 </div>
 </div>
 </div>
@@ -442,10 +442,10 @@
 </div>
 <div class="p-4 bg-dark-700/30 flex justify-start space-x-3">
 <button class="px-4 py-2 text-sm bg-dark-600 hover:bg-dark-500 rounded-lg transition-colors" onclick="openModal('modal-2-1')">
-          Ver em Modal
+          View in Modal
         </button>
 <a class="px-4 py-2 text-sm bg-blue-600 hover:bg-blue-500 text-white rounded-lg transition-colors" href="modulo-2-1.html">
-          Ver Completo
+          View Complete
         </a>
 </div>
 </div>
@@ -456,8 +456,8 @@
 <span class="text-blue-400 font-bold">2.2</span>
 <span class="text-xs text-neutral-500">~40 min</span>
 </div>
-<h3 class="text-2xl font-bold mb-2">🔌 Connections: Alcança suas coisas</h3>
-<p class="text-neutral-400 text-sm">Dados vivos, sem colar. O AIOS acessa seus sistemas em tempo real — agenda, tarefas, CRM, financeiro.</p>
+<h3 class="text-2xl font-bold mb-2">🔌 Connections: Connects to Your Tools</h3>
+<p class="text-neutral-400 text-sm">Live data, no pasting. AIOS accesses your systems in real time — calendar, tasks, CRM, finances.</p>
 </div>
 <div class="divide-y divide-dark-600">
 <!-- Tópico 1 -->
@@ -466,8 +466,8 @@
 <div class="flex items-center space-x-3">
 <span class="w-6 h-6 rounded-full bg-blue-500/20 text-blue-400 text-xs font-bold flex items-center justify-center flex-shrink-0">1</span>
 <div>
-<span class="font-medium">🧪 O teste do Connections</span>
-<p class="text-xs text-neutral-500 mt-0.5">Dado vivo, sem paste manual</p>
+<span class="font-medium">🧪 The Connections Test</span>
+<p class="text-xs text-neutral-500 mt-0.5">Live data, no manual pasting</p>
 </div>
 </div>
 <svg class="w-4 h-4 text-neutral-500 flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
@@ -475,16 +475,16 @@
 <div class="topic-explanation px-4 pb-4">
 <div class="pl-9 space-y-3">
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">O que é</p>
-<p class="text-sm text-neutral-300">"O que tenho na agenda amanhã e quais tarefas vencem?" → o Claude responde com dado vivo, sem paste manual. Se precisou de paste, não há Connections.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">What it is</p>
+<p class="text-sm text-neutral-300">"What’s on my calendar tomorrow, and which tasks are due?" → Claude responds with live data, no manual paste. If you needed to paste, there are no Connections.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Por que aprender</p>
-<p class="text-sm text-neutral-300">Conexões ao vivo eliminam o loop manual de copiar-colar dados para o chat. O AIOS torna-se proativo porque tem acesso às informações sem intervenção.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Why learn</p>
+<p class="text-sm text-neutral-300">Live connections eliminate the manual loop of copying and pasting data into chat. AIOS becomes proactive because it can access information without intervention.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Conceitos-chave</p>
-<p class="text-sm text-neutral-300"><strong>Dado vivo:</strong> lido diretamente da fonte, não copiado. <strong>Paste:</strong> antipadrão — indica ausência de conexão real. <strong>Read vs write:</strong> conexão que lê vs que também escreve.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Key Concepts</p>
+<p class="text-sm text-neutral-300"><strong>Live data:</strong> read directly from the source, not copied. <strong>Paste:</strong> anti-pattern — indicates a lack of real connection. <strong>Read vs write:</strong> connection that reads vs. one that also writes.</p>
 </div>
 </div>
 </div>
@@ -495,8 +495,8 @@
 <div class="flex items-center space-x-3">
 <span class="w-6 h-6 rounded-full bg-blue-500/20 text-blue-400 text-xs font-bold flex items-center justify-center flex-shrink-0">2</span>
 <div>
-<span class="font-medium">🌐 As 7 Domínios Tier-1 Universais</span>
-<p class="text-xs text-neutral-500 mt-0.5">Cobertura mínima de qualquer negócio</p>
+<span class="font-medium">🌐 The 7 Universal Tier-1 Domains</span>
+<p class="text-xs text-neutral-500 mt-0.5">Minimum coverage for any business</p>
 </div>
 </div>
 <svg class="w-4 h-4 text-neutral-500 flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
@@ -504,16 +504,16 @@
 <div class="topic-explanation px-4 pb-4">
 <div class="pl-9 space-y-3">
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">O que é</p>
-<p class="text-sm text-neutral-300">Os 7 domínios essenciais: (1) Receita/Financeiro · (2) Interações com cliente · (3) Calendário · (4) Comunicação · (5) Projetos/tarefas · (6) Inteligência de reunião · (7) Conhecimento/arquivos. Todo negócio tem equivalentes.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">What it is</p>
+<p class="text-sm text-neutral-300">The 7 essential domains: (1) Revenue/Finance · (2) Customer interactions · (3) Calendar · (4) Communication · (5) Projects/tasks · (6) Meeting intelligence · (7) Knowledge/files. Every business has equivalents.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Por que aprender</p>
-<p class="text-sm text-neutral-300">O /audit pontua Connections com base na cobertura desses domínios. Conhecê-los ajuda a priorizar quais conexões constroem primeiro — começar pelos domínios de maior alavancagem.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Why learn</p>
+<p class="text-sm text-neutral-300">/audit scores Connections based on coverage of these domains. Knowing them helps you prioritize which connections to build first—starting with the highest-leverage domains.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Conceitos-chave</p>
-<p class="text-sm text-neutral-300"><strong>Tier-1:</strong> domínios presentes em qualquer negócio, independente de setor. <strong>Cobertura:</strong> quantos dos 7 estão conectados. <strong>Alavancagem:</strong> impacto de adicionar cada domínio.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Key Concepts</p>
+<p class="text-sm text-neutral-300"><strong>Tier-1:</strong> domains present in any business, regardless of industry. <strong>Coverage:</strong> how many of the 7 are connected. <strong>Leverage:</strong> impact of adding each domain.</p>
 </div>
 </div>
 </div>
@@ -524,7 +524,7 @@
 <div class="flex items-center space-x-3">
 <span class="w-6 h-6 rounded-full bg-blue-500/20 text-blue-400 text-xs font-bold flex items-center justify-center flex-shrink-0">3</span>
 <div>
-<span class="font-medium">⚙️ Mecanismos (agnóstico de tool)</span>
+<span class="font-medium">⚙️ Mechanisms (tool-agnostic)</span>
 <p class="text-xs text-neutral-500 mt-0.5">mcp · script · export · key+ref</p>
 </div>
 </div>
@@ -533,16 +533,16 @@
 <div class="topic-explanation px-4 pb-4">
 <div class="pl-9 space-y-3">
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">O que é</p>
-<p class="text-sm text-neutral-300">Quatro mecanismos para conectar sistemas: <code class="text-xs bg-dark-600 px-1 rounded">mcp</code> (servidor MCP) · <code class="text-xs bg-dark-600 px-1 rounded">script</code> (Python/Bash batendo API) · <code class="text-xs bg-dark-600 px-1 rounded">export</code> (dump CSV/JSON) · <code class="text-xs bg-dark-600 px-1 rounded">key+ref</code> (chave .env + doc de API). O kit é API-first; o audit não prefere MCP.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">What it is</p>
+<p class="text-sm text-neutral-300">Four mechanisms for connecting systems: <code class="text-xs bg-dark-600 px-1 rounded">mcp</code> (MCP server) · <code class="text-xs bg-dark-600 px-1 rounded">script</code> (Python/Bash calling the API) · <code class="text-xs bg-dark-600 px-1 rounded">export</code> (CSV/JSON dump) · <code class="text-xs bg-dark-600 px-1 rounded">key+ref</code> (.env key + API docs). The kit is API-first; the audit doesn't favor MCP.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Por que aprender</p>
-<p class="text-sm text-neutral-300">Não há uma única maneira de conectar. MCP é conveniente mas não obrigatório — um script Python que bate uma API é igualmente válido. O que importa é o dado estar acessível.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Why learn</p>
+<p class="text-sm text-neutral-300">There’s no single way to connect. MCP is convenient but not required—a Python script that calls an API is just as valid. What matters is that the data is accessible.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Conceitos-chave</p>
-<p class="text-sm text-neutral-300"><strong>MCP:</strong> Model Context Protocol. <strong>API-first:</strong> preferir API direta a automações frágeis. <strong>.env:</strong> arquivo de variáveis de ambiente para chaves de API.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Key Concepts</p>
+<p class="text-sm text-neutral-300"><strong>MCP:</strong> Model Context Protocol. <strong>API-first:</strong> prefer direct API calls over fragile automations. <strong>.env:</strong> environment variables file for API keys.</p>
 </div>
 </div>
 </div>
@@ -553,8 +553,8 @@
 <div class="flex items-center space-x-3">
 <span class="w-6 h-6 rounded-full bg-blue-500/20 text-blue-400 text-xs font-bold flex items-center justify-center flex-shrink-0">4</span>
 <div>
-<span class="font-medium">📊 connections.md — registro de sistemas</span>
-<p class="text-xs text-neutral-500 mt-0.5">Uma linha por sistema alcançável</p>
+<span class="font-medium">📊 connections.md — systems registry</span>
+<p class="text-xs text-neutral-500 mt-0.5">One line per reachable system</p>
 </div>
 </div>
 <svg class="w-4 h-4 text-neutral-500 flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
@@ -562,16 +562,16 @@
 <div class="topic-explanation px-4 pb-4">
 <div class="pl-9 space-y-3">
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">O que é</p>
-<p class="text-sm text-neutral-300">Tabela com colunas: # · Domínio · Tool · Mecanismo · Auth · Última checagem. Uma linha por sistema conectado. É o inventário de Connections do seu AIOS.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">What it is</p>
+<p class="text-sm text-neutral-300">Table with columns: # · Domain · Tool · Mechanism · Auth · Last checked. One row per connected system. This is your AIOS Connections inventory.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Por que aprender</p>
-<p class="text-sm text-neutral-300">Sem um registro, você não sabe o que está conectado. O /audit lê o connections.md para calcular o score de Connections. Um registro completo garante que nenhum domínio seja esquecido.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Why learn</p>
+<p class="text-sm text-neutral-300">Without a record, you don’t know what’s connected. /audit reads connections.md to calculate the Connections score. A complete record ensures no domain is forgotten.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Conceitos-chave</p>
-<p class="text-sm text-neutral-300"><strong>Inventário:</strong> lista auditável de sistemas. <strong>Auth:</strong> método de autenticação (API key, OAuth). <strong>Freshness:</strong> quando foi verificado pela última vez.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Key Concepts</p>
+<p class="text-sm text-neutral-300"><strong>Inventory:</strong> auditable list of systems. <strong>Auth:</strong> authentication method (API key, OAuth). <strong>Freshness:</strong> when it was last verified.</p>
 </div>
 </div>
 </div>
@@ -582,8 +582,8 @@
 <div class="flex items-center space-x-3">
 <span class="w-6 h-6 rounded-full bg-blue-500/20 text-blue-400 text-xs font-bold flex items-center justify-center flex-shrink-0">5</span>
 <div>
-<span class="font-medium">💾 Researched-once-saved-forever</span>
-<p class="text-xs text-neutral-500 mt-0.5">references/{tool}-api.md por conexão</p>
+<span class="font-medium">💾 Researched-Once-Saved-Forever</span>
+<p class="text-xs text-neutral-500 mt-0.5">references/{tool}-api.md per connection</p>
 </div>
 </div>
 <svg class="w-4 h-4 text-neutral-500 flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
@@ -591,16 +591,16 @@
 <div class="topic-explanation px-4 pb-4">
 <div class="pl-9 space-y-3">
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">O que é</p>
-<p class="text-sm text-neutral-300">Ao conectar uma API, salve <code class="text-xs bg-dark-600 px-1 rounded">references/{tool}-api.md</code> com endpoints, auth e queries principais. O /audit premia isso; skills futuras não re-pesquisam.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">What it is</p>
+<p class="text-sm text-neutral-300">When connecting an API, save <code class="text-xs bg-dark-600 px-1 rounded">references/{tool}-api.md</code> with endpoints, auth, and the main queries. /audit rewards this; future skills won't research it again.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Por que aprender</p>
-<p class="text-sm text-neutral-300">Pesquisa de API consome tempo. Salvando o que descobriu, todo futuro uso daquele sistema começa do ponto onde parou — sem re-pesquisar docs, endpoints ou formatos de autenticação.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Why learn</p>
+<p class="text-sm text-neutral-300">API research takes time. By saving what you discover, every future use of that system starts where you left off — no need to research the docs, endpoints, or authentication formats again.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Conceitos-chave</p>
-<p class="text-sm text-neutral-300"><strong>API ref doc:</strong> documento de referência de endpoints. <strong>Endpoints:</strong> URLs da API com parâmetros. <strong>Compounding:</strong> cada conexão documentada acelera as próximas.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Key Concepts</p>
+<p class="text-sm text-neutral-300"><strong>API ref doc:</strong> endpoint reference document. <strong>Endpoints:</strong> API URLs with parameters. <strong>Compounding:</strong> each documented connection speeds up the next ones.</p>
 </div>
 </div>
 </div>
@@ -612,7 +612,7 @@
 <span class="w-6 h-6 rounded-full bg-blue-500/20 text-blue-400 text-xs font-bold flex items-center justify-center flex-shrink-0">6</span>
 <div>
 <span class="font-medium">✍️ Read AND write balance</span>
-<p class="text-xs text-neutral-500 mt-0.5">Pelo menos uma conexão escreve</p>
+<p class="text-xs text-neutral-500 mt-0.5">At least one connection writes</p>
 </div>
 </div>
 <svg class="w-4 h-4 text-neutral-500 flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
@@ -620,16 +620,16 @@
 <div class="topic-explanation px-4 pb-4">
 <div class="pl-9 space-y-3">
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">O que é</p>
-<p class="text-sm text-neutral-300">Pelo menos uma conexão precisa ESCREVER — mandar email, postar, criar tarefa. Se tudo é read-only, o AIOS é um visualizador, não um OS.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">What it is</p>
+<p class="text-sm text-neutral-300">At least one connection needs to WRITE — send email, post, create a task. If everything is read-only, AIOS is a viewer, not an OS.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Por que aprender</p>
-<p class="text-sm text-neutral-300">Leitura sem escrita é monitoramento passivo. Um OS age. A capacidade de escrever (enviar, criar, atualizar) é o que diferencia um painel de um operador.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Why learn</p>
+<p class="text-sm text-neutral-300">Reading without writing is passive monitoring. An OS takes action. The ability to write (send, create, update) is what sets an operator apart from a dashboard.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Conceitos-chave</p>
-<p class="text-sm text-neutral-300"><strong>Read-only:</strong> só lê dados, não modifica. <strong>Write permission:</strong> autorização para criar/atualizar/deletar. <strong>OS vs painel:</strong> distingue sistema operacional de simples dashboard.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Key Concepts</p>
+<p class="text-sm text-neutral-300"><strong>Read-only:</strong> only reads data; does not modify it. <strong>Write permission:</strong> authorization to create/update/delete. <strong>OS vs. dashboard:</strong> distinguishes an operating system from a simple dashboard.</p>
 </div>
 </div>
 </div>
@@ -649,16 +649,16 @@
 <div class="topic-explanation px-4 pb-4">
 <div class="pl-9 space-y-3">
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">O que é</p>
-<p class="text-sm text-neutral-300">Hierarquia de confiabilidade de integração: API direta (mais confiável) &gt; CLI &gt; Browser Automation &gt; Scraping (mais frágil). Sempre prefira o degrau mais confiável disponível.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">What it is</p>
+<p class="text-sm text-neutral-300">Integration reliability hierarchy: direct API (most reliable) &gt; CLI &gt; Browser Automation &gt; Scraping (most fragile). Always prefer the most reliable option available.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Por que aprender</p>
-<p class="text-sm text-neutral-300">Scraping quebra quando o layout muda. Browser automation quebra quando a UI muda. APIs são contratos estáveis — quando disponível, sempre preferível. Saber a hierarquia evita integrar pelo degrau errado.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Why learn</p>
+<p class="text-sm text-neutral-300">Scraping breaks when the layout changes. Browser automation breaks when the UI changes. APIs are stable contracts—when available, they’re always preferable. Knowing the hierarchy helps you avoid integrating at the wrong level.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Conceitos-chave</p>
-<p class="text-sm text-neutral-300"><strong>Integration Ladder:</strong> modelo de decisão de mecanismo. <strong>Confiabilidade:</strong> probabilidade de funcionar amanhã. <strong>Contrato de API:</strong> interface estável e versionada.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Key Concepts</p>
+<p class="text-sm text-neutral-300"><strong>Integration Ladder:</strong> mechanism decision model. <strong>Reliability:</strong> probability it will work tomorrow. <strong>API contract:</strong> stable, versioned interface.</p>
 </div>
 </div>
 </div>
@@ -666,10 +666,10 @@
 </div>
 <div class="p-4 bg-dark-700/30 flex justify-start space-x-3">
 <button class="px-4 py-2 text-sm bg-dark-600 hover:bg-dark-500 rounded-lg transition-colors" onclick="openModal('modal-2-2')">
-          Ver em Modal
+          View in Modal
         </button>
 <a class="px-4 py-2 text-sm bg-blue-600 hover:bg-blue-500 text-white rounded-lg transition-colors" href="modulo-2-2.html">
-          Ver Completo
+          View Complete
         </a>
 </div>
 </div>
@@ -680,8 +680,8 @@
 <span class="text-blue-400 font-bold">2.3</span>
 <span class="text-xs text-neutral-500">~40 min</span>
 </div>
-<h3 class="text-2xl font-bold mb-2">🧩 Capabilities: Sabe fazer o trabalho</h3>
-<p class="text-neutral-400 text-sm">Uma frase dispara um artefato. Skills, agents e o princípio boring-is-beautiful.</p>
+<h3 class="text-2xl font-bold mb-2">🧩 Capabilities: Knows how to do the work</h3>
+<p class="text-neutral-400 text-sm">One sentence triggers an artifact. Skills, agents, and the boring-is-beautiful principle.</p>
 </div>
 <div class="divide-y divide-dark-600">
 <!-- Tópico 1 -->
@@ -690,8 +690,8 @@
 <div class="flex items-center space-x-3">
 <span class="w-6 h-6 rounded-full bg-blue-500/20 text-blue-400 text-xs font-bold flex items-center justify-center flex-shrink-0">1</span>
 <div>
-<span class="font-medium">🧪 O teste do Capabilities</span>
-<p class="text-xs text-neutral-500 mt-0.5">Uma frase → workflow multi-passo → artefato</p>
+<span class="font-medium">🧪 The Capabilities Test</span>
+<p class="text-xs text-neutral-500 mt-0.5">One sentence → multi-step workflow → artifact</p>
 </div>
 </div>
 <svg class="w-4 h-4 text-neutral-500 flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
@@ -699,16 +699,16 @@
 <div class="topic-explanation px-4 pb-4">
 <div class="pl-9 space-y-3">
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">O que é</p>
-<p class="text-sm text-neutral-300">Uma frase curta dispara um workflow multi-passo que produz um artefato concreto. Se precisar de cinco mensagens explicando o que quer antes de receber algo útil, não há Capability configurada.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">What it is</p>
+<p class="text-sm text-neutral-300">A short phrase triggers a multi-step workflow that produces a concrete artifact. If it takes five messages explaining what you want before you get something useful, no Capability is configured.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Por que aprender</p>
-<p class="text-sm text-neutral-300">Capabilities são o índice de automações do seu AIOS. Cada skill é uma ação empacotada que pode ser disparada por qualquer membro do time com uma frase natural.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Why learn</p>
+<p class="text-sm text-neutral-300">Capabilities are your AIOS automation index. Each skill is a packaged action that any team member can trigger with a natural-language phrase.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Conceitos-chave</p>
-<p class="text-sm text-neutral-300"><strong>Artefato:</strong> output concreto (doc, email, análise). <strong>Workflow:</strong> sequência de passos com resultado definido. <strong>Trigger natural:</strong> frase em linguagem comum que dispara a skill.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Key Concepts</p>
+<p class="text-sm text-neutral-300"><strong>Artifact:</strong> concrete output (doc, email, analysis). <strong>Workflow:</strong> sequence of steps with a defined outcome. <strong>Natural trigger:</strong> plain-language phrase that triggers the skill.</p>
 </div>
 </div>
 </div>
@@ -720,7 +720,7 @@
 <span class="w-6 h-6 rounded-full bg-blue-500/20 text-blue-400 text-xs font-bold flex items-center justify-center flex-shrink-0">2</span>
 <div>
 <span class="font-medium">🆚 Skills vs Agents</span>
-<p class="text-xs text-neutral-500 mt-0.5">Skills primeiro, agents por último</p>
+<p class="text-xs text-neutral-500 mt-0.5">Skills first, agents last</p>
 </div>
 </div>
 <svg class="w-4 h-4 text-neutral-500 flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
@@ -728,16 +728,16 @@
 <div class="topic-explanation px-4 pb-4">
 <div class="pl-9 space-y-3">
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">O que é</p>
-<p class="text-sm text-neutral-300"><strong>Skill</strong> = SKILL.md com frontmatter (gatilho + instruções passo a passo). <strong>Agent</strong> = sub-assistente multi-passo com contexto próprio e modelo mais barato. Skills primeiro — agents são para quando skills não bastam.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">What it is</p>
+<p class="text-sm text-neutral-300"><strong>Skill</strong> = SKILL.md with frontmatter (trigger + step-by-step instructions). <strong>Agent</strong> = multi-step sub-assistant with its own context and a cheaper model. Skills first—agents are for when skills aren't enough.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Por que aprender</p>
-<p class="text-sm text-neutral-300">Agents são mais complexos e caros de manter. Skills são simples, previsíveis e fáceis de debugar. A regra é começar pelo mais simples que resolve o problema.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Why learn</p>
+<p class="text-sm text-neutral-300">Agents are more complex and costly to maintain. Skills are simple, predictable, and easy to debug. The rule is to start with the simplest thing that solves the problem.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Conceitos-chave</p>
-<p class="text-sm text-neutral-300"><strong>Frontmatter:</strong> metadados YAML no topo do SKILL.md. <strong>Sub-assistente:</strong> Claude rodando em contexto separado. <strong>Contexto próprio:</strong> isolamento da sessão principal.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Key Concepts</p>
+<p class="text-sm text-neutral-300"><strong>Frontmatter:</strong> YAML metadata at the top of SKILL.md. <strong>Sub-assistant:</strong> Claude running in a separate context. <strong>Its own context:</strong> isolation from the main session.</p>
 </div>
 </div>
 </div>
@@ -748,7 +748,7 @@
 <div class="flex items-center space-x-3">
 <span class="w-6 h-6 rounded-full bg-blue-500/20 text-blue-400 text-xs font-bold flex items-center justify-center flex-shrink-0">3</span>
 <div>
-<span class="font-medium">🛠️ As 3 skills que vêm no kit</span>
+<span class="font-medium">🛠️ The 3 Skills Included in the Kit</span>
 <p class="text-xs text-neutral-500 mt-0.5">/onboard · /audit · /level-up</p>
 </div>
 </div>
@@ -757,16 +757,16 @@
 <div class="topic-explanation px-4 pb-4">
 <div class="pl-9 space-y-3">
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">O que é</p>
-<p class="text-sm text-neutral-300">Três skills incluídas: <code class="text-xs bg-dark-600 px-1 rounded">/onboard</code> (setup do Dia 1), <code class="text-xs bg-dark-600 px-1 rounded">/audit</code> (diagnóstico Four-Cs), <code class="text-xs bg-dark-600 px-1 rounded">/level-up</code> (ship 1 automação por semana). Enxutas de propósito — você constrói por cima.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">What it is</p>
+<p class="text-sm text-neutral-300">Three included skills: <code class="text-xs bg-dark-600 px-1 rounded">/onboard</code> (Day 1 setup), <code class="text-xs bg-dark-600 px-1 rounded">/audit</code> (Four-Cs diagnosis), <code class="text-xs bg-dark-600 px-1 rounded">/level-up</code> (ship 1 automation per week). Intentionally lean — you build on top of them.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Por que aprender</p>
-<p class="text-sm text-neutral-300">Essas três skills cobrem o ciclo de vida básico do AIOS: configurar, medir e evoluir. Entender o que cada uma faz orienta onde você deve adicionar suas próprias capabilities primeiro.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Why learn</p>
+<p class="text-sm text-neutral-300">These three skills cover the basic AIOS lifecycle: configure, measure, and evolve. Understanding what each one does helps you decide where to add your own capabilities first.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Conceitos-chave</p>
-<p class="text-sm text-neutral-300"><strong>/onboard:</strong> preenchimento do CLAUDE.md. <strong>/audit:</strong> diagnóstico e score 0-100. <strong>/level-up:</strong> ciclo semanal de ship de automação.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Key Concepts</p>
+<p class="text-sm text-neutral-300"><strong>/onboard:</strong> filling in the CLAUDE.md. <strong>/audit:</strong> diagnosis and score 0-100. <strong>/level-up:</strong> weekly automation shipping cycle.</p>
 </div>
 </div>
 </div>
@@ -777,8 +777,8 @@
 <div class="flex items-center space-x-3">
 <span class="w-6 h-6 rounded-full bg-blue-500/20 text-blue-400 text-xs font-bold flex items-center justify-center flex-shrink-0">4</span>
 <div>
-<span class="font-medium">🧬 Anatomia de um SKILL.md</span>
-<p class="text-xs text-neutral-500 mt-0.5">frontmatter + corpo passo a passo</p>
+<span class="font-medium">🧬 Anatomy of a SKILL.md</span>
+<p class="text-xs text-neutral-500 mt-0.5">frontmatter + step-by-step body</p>
 </div>
 </div>
 <svg class="w-4 h-4 text-neutral-500 flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
@@ -786,16 +786,16 @@
 <div class="topic-explanation px-4 pb-4">
 <div class="pl-9 space-y-3">
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">O que é</p>
-<p class="text-sm text-neutral-300">Frontmatter com <code class="text-xs bg-dark-600 px-1 rounded">name</code> e <code class="text-xs bg-dark-600 px-1 rounded">description</code> (quando disparar) + corpo com execução passo a passo. Localização: <code class="text-xs bg-dark-600 px-1 rounded">.claude/skills/&lt;nome&gt;/SKILL.md</code>.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">What it is</p>
+<p class="text-sm text-neutral-300">Frontmatter with <code class="text-xs bg-dark-600 px-1 rounded">name</code> e <code class="text-xs bg-dark-600 px-1 rounded">description</code> (when to trigger) + body with step-by-step execution. Location: <code class="text-xs bg-dark-600 px-1 rounded">.claude/skills/&lt;nome&gt;/SKILL.md</code>.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Por que aprender</p>
-<p class="text-sm text-neutral-300">Saber a anatomia permite criar skills novas do zero sem depender do skill-creator. O frontmatter é o que Claude Code usa para decidir quando invocar a skill automaticamente.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Why learn</p>
+<p class="text-sm text-neutral-300">Knowing the anatomy lets you create new skills from scratch without relying on skill-creator. Claude Code uses the frontmatter to decide when to invoke the skill automatically.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Conceitos-chave</p>
-<p class="text-sm text-neutral-300"><strong>name:</strong> identificador da skill. <strong>description:</strong> gatilho semântico — quando o Claude deve usá-la. <strong>corpo:</strong> instruções passo a passo para execução.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Key Concepts</p>
+<p class="text-sm text-neutral-300"><strong>name:</strong> skill identifier. <strong>description:</strong> semantic trigger — when Claude should use it. <strong>body:</strong> step-by-step execution instructions.</p>
 </div>
 </div>
 </div>
@@ -806,7 +806,7 @@
 <div class="flex items-center space-x-3">
 <span class="w-6 h-6 rounded-full bg-blue-500/20 text-blue-400 text-xs font-bold flex items-center justify-center flex-shrink-0">5</span>
 <div>
-<span class="font-medium">😴 Determinístico vs IA-assistido</span>
+<span class="font-medium">😴 Deterministic vs. AI-Assisted</span>
 <p class="text-xs text-neutral-500 mt-0.5">Boring-is-beautiful</p>
 </div>
 </div>
@@ -815,16 +815,16 @@
 <div class="topic-explanation px-4 pb-4">
 <div class="pl-9 space-y-3">
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">O que é</p>
-<p class="text-sm text-neutral-300">Ordem de preferência Boring-is-Beautiful: prompt salvo → skill determinístico (script, sem IA) → skill IA-assistido (1 chamada) → sub-agent (último recurso). Sempre usar o nível mais simples que funciona.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">What it is</p>
+<p class="text-sm text-neutral-300">Boring-is-Beautiful preference order: saved prompt → deterministic skill (script, no AI) → AI-assisted skill (1 call) → sub-agent (last resort). Always use the simplest level that works.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Por que aprender</p>
-<p class="text-sm text-neutral-300">IA é poderosa mas não é a solução mais simples para tudo. Um script que roda sempre da mesma forma é mais confiável que uma chamada de LLM. Boring = previsível = operacional.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Why learn</p>
+<p class="text-sm text-neutral-300">AI is powerful, but it isn’t the simplest solution for everything. A script that runs the same way every time is more reliable than an LLM call. Boring = predictable = operational.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Conceitos-chave</p>
-<p class="text-sm text-neutral-300"><strong>Determinístico:</strong> mesmo input → mesmo output sempre. <strong>IA-assistido:</strong> usa LLM para raciocínio. <strong>Boring-is-beautiful:</strong> princípio de preferir soluções simples e confiáveis.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Key Concepts</p>
+<p class="text-sm text-neutral-300"><strong>Deterministic:</strong> same input → same output every time. <strong>AI-assisted:</strong> uses an LLM for reasoning. <strong>Boring-is-beautiful:</strong> principle of preferring simple, reliable solutions.</p>
 </div>
 </div>
 </div>
@@ -835,8 +835,8 @@
 <div class="flex items-center space-x-3">
 <span class="w-6 h-6 rounded-full bg-blue-500/20 text-blue-400 text-xs font-bold flex items-center justify-center flex-shrink-0">6</span>
 <div>
-<span class="font-medium">🚀 Construir via /level-up</span>
-<p class="text-xs text-neutral-500 mt-0.5">Cada run = 1 artefato · bike-method-phase: 1</p>
+<span class="font-medium">🚀 Build via /level-up</span>
+<p class="text-xs text-neutral-500 mt-0.5">Each run = 1 artifact · bike-method-phase: 1</p>
 </div>
 </div>
 <svg class="w-4 h-4 text-neutral-500 flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
@@ -844,16 +844,16 @@
 <div class="topic-explanation px-4 pb-4">
 <div class="pl-9 space-y-3">
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">O que é</p>
-<p class="text-sm text-neutral-300">Cada execução do /level-up produz 1 artefato (skill ou automação). Use skill-creator (Anthropic) ou escreva o SKILL.md à mão. Todo artefato começa com <code class="text-xs bg-dark-600 px-1 rounded">bike-method-phase: 1</code>.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">What it is</p>
+<p class="text-sm text-neutral-300">Each /level-up run produces 1 artifact (skill or automation). Use skill-creator (Anthropic) or write the SKILL.md by hand. Every artifact starts with <code class="text-xs bg-dark-600 px-1 rounded">bike-method-phase: 1</code>.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Por que aprender</p>
-<p class="text-sm text-neutral-300">O /level-up é o motor de crescimento do AIOS. Uma automação por semana = 52 automações por ano. Começar no phase 1 garante escopo pequeno e entrega garantida.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Why learn</p>
+<p class="text-sm text-neutral-300">/level-up is AIOS’s growth engine. One automation per week = 52 automations per year. Starting in phase 1 keeps the scope small and ensures delivery.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Conceitos-chave</p>
-<p class="text-sm text-neutral-300"><strong>bike-method:</strong> metodologia de entrega incremental. <strong>phase 1:</strong> escopo mínimo viável. <strong>skill-creator:</strong> ferramenta Anthropic para gerar SKILL.md.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Key Concepts</p>
+<p class="text-sm text-neutral-300"><strong>bike-method:</strong> incremental delivery methodology. <strong>phase 1:</strong> minimum viable scope. <strong>skill-creator:</strong> Anthropic tool for generating SKILL.md.</p>
 </div>
 </div>
 </div>
@@ -865,7 +865,7 @@
 <span class="w-6 h-6 rounded-full bg-blue-500/20 text-blue-400 text-xs font-bold flex items-center justify-center flex-shrink-0">7</span>
 <div>
 <span class="font-medium">🤖 Sub-agents (.claude/agents/)</span>
-<p class="text-xs text-neutral-500 mt-0.5">Raciocínio + ferramentas em contexto próprio</p>
+<p class="text-xs text-neutral-500 mt-0.5">Reasoning + tools in its own context</p>
 </div>
 </div>
 <svg class="w-4 h-4 text-neutral-500 flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
@@ -873,16 +873,16 @@
 <div class="topic-explanation px-4 pb-4">
 <div class="pl-9 space-y-3">
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">O que é</p>
-<p class="text-sm text-neutral-300">Quando o trabalho exige raciocínio + uso repetível de ferramentas. Sub-agents rodam em contexto próprio para manter a sessão principal enxuta. Localizados em <code class="text-xs bg-dark-600 px-1 rounded">.claude/agents/</code>.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">What it is</p>
+<p class="text-sm text-neutral-300">When the work requires reasoning + repeatable use of tools. Sub-agents run in their own context to keep the main session lean. Located in <code class="text-xs bg-dark-600 px-1 rounded">.claude/agents/</code>.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Por que aprender</p>
-<p class="text-sm text-neutral-300">Agents isolam trabalho complexo do contexto principal. Isso evita que uma análise longa consuma tokens da sessão do operador. São o nível máximo de autonomia — usar com critério.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Why learn</p>
+<p class="text-sm text-neutral-300">Agents isolate complex work from the main context. This keeps a long analysis from consuming the operator’s session tokens. They offer the highest level of autonomy—use them judiciously.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Conceitos-chave</p>
-<p class="text-sm text-neutral-300"><strong>Contexto próprio:</strong> sessão Claude isolada. <strong>Modelo mais barato:</strong> agents podem usar modelos menores. <strong>Haiku para agents:</strong> custo menor para tarefas repetitivas.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Key Concepts</p>
+<p class="text-sm text-neutral-300"><strong>Its own context:</strong> isolated Claude session. <strong>Cheapest model:</strong> agents can use smaller models. <strong>Haiku for agents:</strong> lower cost for repetitive tasks.</p>
 </div>
 </div>
 </div>
@@ -890,10 +890,10 @@
 </div>
 <div class="p-4 bg-dark-700/30 flex justify-start space-x-3">
 <button class="px-4 py-2 text-sm bg-dark-600 hover:bg-dark-500 rounded-lg transition-colors" onclick="openModal('modal-2-3')">
-          Ver em Modal
+          View in Modal
         </button>
 <a class="px-4 py-2 text-sm bg-blue-600 hover:bg-blue-500 text-white rounded-lg transition-colors" href="modulo-2-3.html">
-          Ver Completo
+          View Complete
         </a>
 </div>
 </div>
@@ -904,8 +904,8 @@
 <span class="text-blue-400 font-bold">2.4</span>
 <span class="text-xs text-neutral-500">~35 min</span>
 </div>
-<h3 class="text-2xl font-bold mb-2">⏰ Cadence: Roda sem ser pedido</h3>
-<p class="text-neutral-400 text-sm">Laptop fechado, brief chega. Rituais, triggers e os 3 indicadores de que o AIOS mudou como você trabalha.</p>
+<h3 class="text-2xl font-bold mb-2">⏰ Cadence: Runs without being asked</h3>
+<p class="text-neutral-400 text-sm">Laptop closed, brief arrives. Rituals, triggers, and the 3 indicators that AIOS changed how you work.</p>
 </div>
 <div class="divide-y divide-dark-600">
 <!-- Tópico 1 -->
@@ -914,8 +914,8 @@
 <div class="flex items-center space-x-3">
 <span class="w-6 h-6 rounded-full bg-blue-500/20 text-blue-400 text-xs font-bold flex items-center justify-center flex-shrink-0">1</span>
 <div>
-<span class="font-medium">🧪 O teste do Cadence</span>
-<p class="text-xs text-neutral-500 mt-0.5">Laptop fechado, resposta chega</p>
+<span class="font-medium">🧪 The Cadence Test</span>
+<p class="text-xs text-neutral-500 mt-0.5">Laptop closed, response arrives</p>
 </div>
 </div>
 <svg class="w-4 h-4 text-neutral-500 flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
@@ -923,16 +923,16 @@
 <div class="topic-explanation px-4 pb-4">
 <div class="pl-9 space-y-3">
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">O que é</p>
-<p class="text-sm text-neutral-300">Laptop fechado. Um brief cai no inbox. Um colega pergunta e recebe resposta real. Se isso acontece sem que você tenha iniciado manualmente, há Cadence. Se precisou você abrir e rodar, não há.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">What it is</p>
+<p class="text-sm text-neutral-300">Laptop closed. A brief lands in the inbox. A colleague asks a question and gets a real answer. If this happens without you manually starting it, you have Cadence. If you had to open and run it, you don't.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Por que aprender</p>
-<p class="text-sm text-neutral-300">Cadence é o nível onde o AIOS para de ser uma ferramenta e começa a ser um sistema operacional de fato — autônomo em ritmo, não apenas em resposta.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Why learn</p>
+<p class="text-sm text-neutral-300">Cadence is the level where AIOS stops being a tool and starts becoming a true operating system—autonomous in its rhythm, not just in its responses.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Conceitos-chave</p>
-<p class="text-sm text-neutral-300"><strong>Proativo:</strong> age sem ser pedido. <strong>Reativo:</strong> responde quando chamado. <strong>Cadence:</strong> ritmo regular e autônomo de operação.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Key Concepts</p>
+<p class="text-sm text-neutral-300"><strong>Proactive:</strong> acts without being asked. <strong>Reactive:</strong> responds when called. <strong>Cadence:</strong> a regular, autonomous operating rhythm.</p>
 </div>
 </div>
 </div>
@@ -943,7 +943,7 @@
 <div class="flex items-center space-x-3">
 <span class="w-6 h-6 rounded-full bg-blue-500/20 text-blue-400 text-xs font-bold flex items-center justify-center flex-shrink-0">2</span>
 <div>
-<span class="font-medium">⚡ Triggers recorrentes</span>
+<span class="font-medium">⚡ Recurring Triggers</span>
 <p class="text-xs text-neutral-500 mt-0.5">daily-* · weekly-* · morning-*</p>
 </div>
 </div>
@@ -952,16 +952,16 @@
 <div class="topic-explanation px-4 pb-4">
 <div class="pl-9 space-y-3">
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">O que é</p>
-<p class="text-sm text-neutral-300">Hooks em <code class="text-xs bg-dark-600 px-1 rounded">.claude/settings.json</code>, ou skills nomeadas com prefixo de frequência: <code class="text-xs bg-dark-600 px-1 rounded">daily-*</code> / <code class="text-xs bg-dark-600 px-1 rounded">weekly-*</code> / <code class="text-xs bg-dark-600 px-1 rounded">monthly-*</code> / <code class="text-xs bg-dark-600 px-1 rounded">morning-*</code> / <code class="text-xs bg-dark-600 px-1 rounded">standup</code>.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">What it is</p>
+<p class="text-sm text-neutral-300">Hooks on <code class="text-xs bg-dark-600 px-1 rounded">.claude/settings.json</code>, or skills named with a frequency prefix: <code class="text-xs bg-dark-600 px-1 rounded">daily-*</code> / <code class="text-xs bg-dark-600 px-1 rounded">weekly-*</code> / <code class="text-xs bg-dark-600 px-1 rounded">monthly-*</code> / <code class="text-xs bg-dark-600 px-1 rounded">morning-*</code> / <code class="text-xs bg-dark-600 px-1 rounded">standup</code>.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Por que aprender</p>
-<p class="text-sm text-neutral-300">Triggers são a infraestrutura de Cadence. Sem eles, toda automação é manual — você precisa lembrar de rodar. Com triggers, o sistema sabe quando agir.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Why learn</p>
+<p class="text-sm text-neutral-300">Triggers are the infrastructure for Cadence. Without them, every automation is manual — you have to remember to run it. With triggers, the system knows when to act.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Conceitos-chave</p>
-<p class="text-sm text-neutral-300"><strong>Hook:</strong> evento que dispara execução. <strong>settings.json:</strong> arquivo de configuração de hooks do Claude Code. <strong>Prefixo de frequência:</strong> convenção de nomenclatura para skills recorrentes.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Key Concepts</p>
+<p class="text-sm text-neutral-300"><strong>Hook:</strong> event that triggers execution. <strong>settings.json:</strong> Claude Code hooks configuration file. <strong>Frequency prefix:</strong> naming convention for recurring skills.</p>
 </div>
 </div>
 </div>
@@ -972,8 +972,8 @@
 <div class="flex items-center space-x-3">
 <span class="w-6 h-6 rounded-full bg-blue-500/20 text-blue-400 text-xs font-bold flex items-center justify-center flex-shrink-0">3</span>
 <div>
-<span class="font-medium">🔄 Rituais recorrentes</span>
-<p class="text-xs text-neutral-500 mt-0.5">Comportamento &gt; infraestrutura</p>
+<span class="font-medium">🔄 Recurring Rituals</span>
+<p class="text-xs text-neutral-500 mt-0.5">Behavior &gt; infrastructure</p>
 </div>
 </div>
 <svg class="w-4 h-4 text-neutral-500 flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
@@ -981,16 +981,16 @@
 <div class="topic-explanation px-4 pb-4">
 <div class="pl-9 space-y-3">
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">O que é</p>
-<p class="text-sm text-neutral-300">A âncora do kit não é cron — é o ritual: /audit semanal (Dia 7) + /level-up toda sexta. Comportamento cria o hábito; a infraestrutura é secundária.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">What it is</p>
+<p class="text-sm text-neutral-300">The kit’s anchor isn’t cron—it’s the ritual: weekly /audit (Day 7) + /level-up every Friday. Behavior builds the habit; infrastructure is secondary.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Por que aprender</p>
-<p class="text-sm text-neutral-300">Sistemas de cron sem hábito são abandonados. Rituais criam o loop de feedback que mantém o AIOS evoluindo. O /audit toda semana é o que faz o score subir.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Why learn</p>
+<p class="text-sm text-neutral-300">Cron systems without habits get abandoned. Rituals create the feedback loop that keeps the AIOS evolving. Running /audit every week is what makes the score go up.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Conceitos-chave</p>
-<p class="text-sm text-neutral-300"><strong>Ritual:</strong> ação repetida com intenção e regularidade. <strong>Cron:</strong> agendador automático. <strong>Loop de feedback:</strong> medir → ajustar → repetir.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Key Concepts</p>
+<p class="text-sm text-neutral-300"><strong>Ritual:</strong> repeated action with intention and regularity. <strong>Cron:</strong> automatic scheduler. <strong>Feedback loop:</strong> measure → adjust → repeat.</p>
 </div>
 </div>
 </div>
@@ -1001,8 +1001,8 @@
 <div class="flex items-center space-x-3">
 <span class="w-6 h-6 rounded-full bg-blue-500/20 text-blue-400 text-xs font-bold flex items-center justify-center flex-shrink-0">4</span>
 <div>
-<span class="font-medium">🔒 Cadence é por ÚLTIMO</span>
-<p class="text-xs text-neutral-500 mt-0.5">Não automatize o que não funciona manual</p>
+<span class="font-medium">🔒 Cadence Comes LAST</span>
+<p class="text-xs text-neutral-500 mt-0.5">Don’t automate what doesn’t work manually</p>
 </div>
 </div>
 <svg class="w-4 h-4 text-neutral-500 flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
@@ -1010,16 +1010,16 @@
 <div class="topic-explanation px-4 pb-4">
 <div class="pl-9 space-y-3">
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">O que é</p>
-<p class="text-sm text-neutral-300">Grafo de dependência completo: Context (base) → Connections + Capabilities (paralelo) → Cadence (topo). Não automatize workflows que não funcionam manualmente. Automação amplifica — não conserta.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">What it is</p>
+<p class="text-sm text-neutral-300">Complete dependency graph: Context (foundation) → Connections + Capabilities (parallel) → Cadence (top). Don’t automate workflows that don’t work manually. Automation amplifies — it doesn’t fix.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Por que aprender</p>
-<p class="text-sm text-neutral-300">Automatizar um processo ruim cria mais problemas mais rápido. Validar manualmente primeiro garante que o que será automatizado já funciona — então a automação só acelera.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Why learn</p>
+<p class="text-sm text-neutral-300">Automating a bad process creates more problems, faster. Validating it manually first ensures that what you automate already works — so automation only speeds it up.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Conceitos-chave</p>
-<p class="text-sm text-neutral-300"><strong>Grafo de dependência:</strong> ordem obrigatória de construção. <strong>Amplificação:</strong> automação escala o que existe, bom ou ruim. <strong>Manual-first:</strong> validar antes de automatizar.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Key Concepts</p>
+<p class="text-sm text-neutral-300"><strong>Dependency graph:</strong> required build order. <strong>Amplification:</strong> automation scales what exists, for better or worse. <strong>Manual-first:</strong> validate before automating.</p>
 </div>
 </div>
 </div>
@@ -1030,8 +1030,8 @@
 <div class="flex items-center space-x-3">
 <span class="w-6 h-6 rounded-full bg-blue-500/20 text-blue-400 text-xs font-bold flex items-center justify-center flex-shrink-0">5</span>
 <div>
-<span class="font-medium">📊 Os 3 indicadores de sucesso</span>
-<p class="text-xs text-neutral-500 mt-0.5">Experiências vividas, não KPIs</p>
+<span class="font-medium">📊 The 3 Success Metrics</span>
+<p class="text-xs text-neutral-500 mt-0.5">Lived experiences, not KPIs</p>
 </div>
 </div>
 <svg class="w-4 h-4 text-neutral-500 flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
@@ -1039,16 +1039,16 @@
 <div class="topic-explanation px-4 pb-4">
 <div class="pl-9 space-y-3">
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">O que é</p>
-<p class="text-sm text-neutral-300">Três sinais de que o AIOS mudou como você trabalha: (1) <strong>Team-reaches-out</strong> — colegas buscam você como referência de IA. (2) <strong>Context-switching reduction</strong> — menos troca de contexto mental. (3) <strong>Knowledge-leaves-your-head</strong> — conhecimento sai da cabeça para o sistema.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">What it is</p>
+<p class="text-sm text-neutral-300">Three signs that AIOS has changed the way you work: (1) <strong>Team-reaches-out</strong> — colleagues come to you as an AI resource. (2) <strong>Context-switching reduction</strong> — less mental context switching. (3) <strong>Knowledge-leaves-your-head</strong> — knowledge moves from your head into the system.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Por que aprender</p>
-<p class="text-sm text-neutral-300">KPIs são fáceis de manipular. Experiências são difíceis de falsificar. Esses três sinais mostram que o AIOS criou mudança real de comportamento, não apenas automações no papel.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Why learn</p>
+<p class="text-sm text-neutral-300">KPIs are easy to manipulate. Experiences are hard to fake. These three signals show that AIOS created real behavior change, not just automations on paper.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Conceitos-chave</p>
-<p class="text-sm text-neutral-300"><strong>Team-reaches-out:</strong> reconhecimento externo de competência. <strong>Context-switching:</strong> custo cognitivo de mudar de tarefa. <strong>Knowledge externalization:</strong> transformar tácito em explícito.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Key Concepts</p>
+<p class="text-sm text-neutral-300"><strong>Team-reaches-out:</strong> external recognition of competence. <strong>Context-switching:</strong> cognitive cost of switching tasks. <strong>Knowledge externalization:</strong> turn tacit knowledge into explicit knowledge.</p>
 </div>
 </div>
 </div>
@@ -1059,8 +1059,8 @@
 <div class="flex items-center space-x-3">
 <span class="w-6 h-6 rounded-full bg-blue-500/20 text-blue-400 text-xs font-bold flex items-center justify-center flex-shrink-0">6</span>
 <div>
-<span class="font-medium">🏢 Pessoal → empresa AI-ready</span>
-<p class="text-xs text-neutral-500 mt-0.5">Mesma arquitetura, escala de time</p>
+<span class="font-medium">🏢 Personal → AI-Ready Company</span>
+<p class="text-xs text-neutral-500 mt-0.5">Same architecture, team scale</p>
 </div>
 </div>
 <svg class="w-4 h-4 text-neutral-500 flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
@@ -1068,16 +1068,16 @@
 <div class="topic-explanation px-4 pb-4">
 <div class="pl-9 space-y-3">
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">O que é</p>
-<p class="text-sm text-neutral-300">Quando os indicadores aparecem para uma pessoa, a mesma arquitetura de dados escala: dashboards, automações, rollout de time. Uma empresa onde cada operador roda um AIOS pessoal é uma empresa de fato AI-ready.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">What it is</p>
+<p class="text-sm text-neutral-300">When the indicators appear for one person, the same data architecture scales to dashboards, automations, and team rollout. A company where every operator runs a personal AIOS is truly AI-ready.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Por que aprender</p>
-<p class="text-sm text-neutral-300">O AIOS individual não é um projeto pessoal isolado — é o protótipo do que a empresa pode se tornar. Dominar os 4 Cs em nível individual é a fundação para escala organizacional.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Why learn</p>
+<p class="text-sm text-neutral-300">An individual AIOS isn’t an isolated personal project—it’s a prototype of what the company can become. Mastering the 4 Cs individually is the foundation for organizational scale.</p>
 </div>
 <div class="bg-dark-700/50 rounded-lg p-3">
-<p class="text-xs font-semibold text-blue-400 mb-1">Conceitos-chave</p>
-<p class="text-sm text-neutral-300"><strong>AI-ready:</strong> estrutura preparada para adotar e escalar IA. <strong>Rollout:</strong> expansão do modelo para todo o time. <strong>Arquitetura replicável:</strong> padrão que pode ser aplicado por múltiplas pessoas.</p>
+<p class="text-xs font-semibold text-blue-400 mb-1">Key Concepts</p>
+<p class="text-sm text-neutral-300"><strong>AI-ready:</strong> structure ready to adopt and scale AI. <strong>Rollout:</strong> expansion of the model to the whole team. <strong>Replicable architecture:</strong> a pattern that multiple people can apply.</p>
 </div>
 </div>
 </div>
@@ -1085,10 +1085,10 @@
 </div>
 <div class="p-4 bg-dark-700/30 flex justify-start space-x-3">
 <button class="px-4 py-2 text-sm bg-dark-600 hover:bg-dark-500 rounded-lg transition-colors" onclick="openModal('modal-2-4')">
-          Ver em Modal
+          View in Modal
         </button>
 <a class="px-4 py-2 text-sm bg-blue-600 hover:bg-blue-500 text-white rounded-lg transition-colors" href="modulo-2-4.html">
-          Ver Completo
+          View Complete
         </a>
 </div>
 </div>
@@ -1096,10 +1096,10 @@
 <div class="flex justify-between items-center mt-12 pt-8 border-t border-dark-600">
 <a class="flex items-center space-x-2 text-neutral-400 hover:text-emerald-400 transition-colors group" href="../trilha1/index.html">
 <svg class="w-5 h-5 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M15 19l-7-7 7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
-<span class="text-sm">← Trilha anterior: Cérebro (3 Ms)</span>
+<span class="text-sm">← Previous Track: Brain (3 Ms)</span>
 </a>
 <a class="flex items-center space-x-2 text-neutral-400 hover:text-purple-400 transition-colors group" href="../trilha3/index.html">
-<span class="text-sm">Próxima Trilha: Na Prática →</span>
+<span class="text-sm">Next Track: In Practice →</span>
 <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 </a>
 </div>
@@ -1107,8 +1107,8 @@
 <!-- FOOTER C -->
 <footer class="border-t border-dark-600 py-8 mt-16">
 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm space-y-1">
-<p>⚙️ AIS-OS — Seu AI Operating System no Claude Code · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" target="_blank">INEMA.CLUB</a> · 2026</p>
-<p>Baseado no kit AIS-OS (licença MIT). The Three Ms of AI™ e The Four Cs of an AIOS™ são marcas de Nate Herk. © 2026 Nate Herk.</p>
+<p>⚙️ AIS-OS — Your AI Operating System in Claude Code · <a class="text-sky-400 hover:text-sky-300" href="https://inema.club" target="_blank">INEMA.CLUB</a> · 2026</p>
+<p>Based on the AIS-OS kit (MIT license). The Three Ms of AI™ and The Four Cs of an AIOS™ are trademarks of Nate Herk. © 2026 Nate Herk.</p>
 </div>
 </footer>
 <!-- MODAIS IFRAME -->
@@ -1117,7 +1117,7 @@
 <div class="p-4 border-b border-dark-600 flex justify-between items-center flex-shrink-0">
 <div class="flex items-center space-x-3">
 <span class="text-blue-400 font-bold">2.1</span>
-<span class="font-semibold">🗂️ Context: Conhece seu negócio</span>
+<span class="font-semibold">🗂️ Context: Knows Your Business</span>
 </div>
 <button class="text-neutral-400 hover:text-white text-2xl leading-none" onclick="closeModal()">×</button>
 </div>
@@ -1129,7 +1129,7 @@
 <div class="p-4 border-b border-dark-600 flex justify-between items-center flex-shrink-0">
 <div class="flex items-center space-x-3">
 <span class="text-blue-400 font-bold">2.2</span>
-<span class="font-semibold">🔌 Connections: Alcança suas coisas</span>
+<span class="font-semibold">🔌 Connections: Connects to Your Tools</span>
 </div>
 <button class="text-neutral-400 hover:text-white text-2xl leading-none" onclick="closeModal()">×</button>
 </div>
@@ -1141,7 +1141,7 @@
 <div class="p-4 border-b border-dark-600 flex justify-between items-center flex-shrink-0">
 <div class="flex items-center space-x-3">
 <span class="text-blue-400 font-bold">2.3</span>
-<span class="font-semibold">🧩 Capabilities: Sabe fazer o trabalho</span>
+<span class="font-semibold">🧩 Capabilities: Knows how to do the work</span>
 </div>
 <button class="text-neutral-400 hover:text-white text-2xl leading-none" onclick="closeModal()">×</button>
 </div>
@@ -1153,7 +1153,7 @@
 <div class="p-4 border-b border-dark-600 flex justify-between items-center flex-shrink-0">
 <div class="flex items-center space-x-3">
 <span class="text-blue-400 font-bold">2.4</span>
-<span class="font-semibold">⏰ Cadence: Roda sem ser pedido</span>
+<span class="font-semibold">⏰ Cadence: Runs without being asked</span>
 </div>
 <button class="text-neutral-400 hover:text-white text-2xl leading-none" onclick="closeModal()">×</button>
 </div>
